@@ -36,6 +36,7 @@ void draw() {
   //saveFrame();
 }
 
+/*
 void connectSerial() {
   try {
     port = new Serial(this, "com4", 9600);
@@ -49,6 +50,7 @@ void connectSerial() {
     println("Failed to connect com4.");
   }
 }
+*/
 
 void readSignal() {
   if (connectSerial) {
